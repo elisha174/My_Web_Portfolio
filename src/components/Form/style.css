@@ -1,0 +1,36 @@
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.nav-image {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/963278/pexels-photo-963278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+  min-height: 5rem;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+
+  
+}
+
+ul {
+  justify-content: right;
+}
+
+.nav-title {
+  color: white;
+  text-align: left;
+}
